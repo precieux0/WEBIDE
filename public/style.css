@@ -1,0 +1,37 @@
+body {
+  background: #1e1e1e;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background: #252526;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#editor { flex: 1; }
+#output {
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  height: 150px;
+  overflow-y: auto;
+}
+#ai-assistant {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #27293d;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+#aiPrompt {
+  width: 100%;
+  height: 60px;
+}

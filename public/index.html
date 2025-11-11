@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Web IDE Pro</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.44.0/min/vs/loader.js"></script>
+</head>
+<body>
+  <header>
+    <h1>💻 Web IDE Multi-langages</h1>
+    <select id="language">
+      <option value="js">JavaScript</option>
+      <option value="py">Python</option>
+      <option value="cpp">C++</option>
+      <option value="c">C</option>
+      <option value="java">Java</option>
+      <option value="php">PHP</option>
+    </select>
+    <button id="run">▶️ Exécuter</button>
+  </header>
+
+  <main>
+    <div id="editor"></div>
+    <pre id="output"></pre>
+  </main>
+
+  <section id="ai-assistant">
+    <textarea id="aiPrompt" placeholder="Pose une question sur ton code..."></textarea>
+    <button id="askAi">💡 Demander à l'IA</button>
+    <div id="aiResponse"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

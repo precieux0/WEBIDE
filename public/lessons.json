@@ -1,0 +1,24 @@
+{
+  "lessons": [
+    {
+      "title": "HTML Débutant",
+      "name": "lesson_html_1",
+      "start": "<!doctype html>\\n<html>\\n  <body>\\n    <h1>Bonjour WebIDE</h1>\\n    <p>Écris du HTML ici puis clique Exécuter.</p>\\n  </body>\\n</html>"
+    },
+    {
+      "title": "JavaScript: console.log",
+      "name": "lesson_js_1",
+      "start": "console.log('Hello from JS');"
+    },
+    {
+      "title": "Python: Hello",
+      "name": "lesson_py_1",
+      "start": "print('Hello from Python')"
+    },
+    {
+      "title": "C++: Hello",
+      "name": "lesson_cpp_1",
+      "start": "#include <iostream>\\nint main(){ std::cout << \"Hello C++\" << std::endl; return 0; }"
+    }
+  ]
+}
